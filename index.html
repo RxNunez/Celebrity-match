@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Date a celebrity!</title>
+    <link href="css/bootstrap.css" rel="stylesheet"  type="text/css">
+    <link href="css/styles.css" rel="stylesheet" text="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+    <body>
+      <div class="container">
+        <h1>Let's get you matched with a celebrity!</h1>
+        <form id="quiz">
+          <label for="age">Enter your age</label>
+          <input id="age" type="text">
+          <label for="gender">Enter your gender</label>
+          <select id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="nonbinary">Nonbinary</option>
+         </select>
+         <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="action" checked>Action
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="comedy">Comedy
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genre" value="tragedy">Tragedy
+            </label>
+          </div>
+         <button type="submit" class="btn">Find out your celebrity</button>
+        </form>
+        <img id="image"/>
+      </div>
+    </body>
+</html>
